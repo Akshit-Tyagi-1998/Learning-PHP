@@ -10,3 +10,7 @@ echo ("it is a variable");
 
 define('num2', 20);
 echo ("<br/>" . num2);
+
+$num1 = $num2 = $num3 = 30;
+echo ($num3);
+
