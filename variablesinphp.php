@@ -14,3 +14,9 @@ echo ("<br/>" . num2);
 $num1 = $num2 = $num3 = 30;
 echo ($num3);
 
+// heredoc in php
+print("<br/>");
+echo <<< mytag
+    "This is me learning php
+    and you should also"
+    mytag;
