@@ -22,6 +22,8 @@ else:
   echo ("condition false");
 endif;
 
+print("<br/>---------------------------------<br/>");
+
 if (10 < 2) {
   echo ("first true");
   if (20 > 10) {
