@@ -20,3 +20,26 @@ echo <<< mytag
     "This is me learning php
     and you should also"
     mytag;
+
+// data types in php
+
+$num1 = 10;
+echo (var_dump($num1));
+
+$num1 = 20.2;
+echo (var_dump($num1));
+
+$num1 = 'hello';
+echo (var_dump($num1));
+
+$num1 = "hello";
+echo (var_dump($num1));
+
+$num1 = true;
+echo (var_dump($num1));
+
+$num1 = null;
+echo (var_dump($num1));
+
+$num1 = array(1, 'swkjdbc', 'skdhbx');
+echo (var_dump($num1));
