@@ -27,3 +27,10 @@ $myfun = function () {
 };
 
 $myfun();
+print("<br/>---------------------------------<br/>");
+
+function fun3($var = "akshit")
+{
+  echo ("This is function three call" . $var);
+}
+fun3();
