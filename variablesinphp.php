@@ -43,3 +43,13 @@ echo (var_dump($num1));
 
 $num1 = array(1, 'swkjdbc', 'skdhbx');
 echo (var_dump($num1));
+
+
+// constant variables
+print("<br/>------------------------------<br/>");
+define('var1', "akshir");
+echo (var1);
+print("<br/>------------------------------<br/>");
+const var2 = "Akshit";
+print(var2);
+print("<br/>------------------------------<br/>");
